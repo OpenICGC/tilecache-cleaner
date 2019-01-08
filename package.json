@@ -1,5 +1,5 @@
 {
-  "name": "mierder_cleaner",
+  "name": "tilecache-cleaner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,12 @@
   "dependencies": {
     "@mapbox/tile-cover": "^3.0.2",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "epsg": "^0.5.0",
+    "express": "^4.16.4",
+    "express-reload": "^1.1.0",
+    "lodash": "^4.17.11",
+    "reproject": "^1.2.3",
+    "turf": "^3.0.14",
+    "xml2js": "^0.4.19"
   }
 }
